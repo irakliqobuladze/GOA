@@ -18,7 +18,6 @@ print(48 >= 0)
 print(0 >= 0)
 
 
-soil_moisture = 50
-print(soil_moisture < 70)
+
 
 

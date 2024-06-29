@@ -230,15 +230,4 @@ end_fill()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 exitonclick()

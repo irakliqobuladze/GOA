@@ -1,12 +1,4 @@
-# 1) 
-
-name = input("enter your name")
-print(f"your name is {name}")
-
-
-
-
-# 3
+# 3) 
 
 name = str(input("enter your name: "))
 last_name = str(input("enter your last_name: "))
