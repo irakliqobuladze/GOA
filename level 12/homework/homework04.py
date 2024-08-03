@@ -6,3 +6,4 @@ if counter % 2 == 0:
     print("number is odd")
 else:
     print("number is even")    
+    
