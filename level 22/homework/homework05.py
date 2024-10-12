@@ -1,12 +1,12 @@
   # 5)
 
-def manual_min(listn):
-    min_num = listn[0]
+def manual_max(listn):
+    max_num = listn[0]
 
     for i in listn:
-        if min_num < i:
-            min_num = i
+        if max_num < i:
+            max_num = i
 
-    return min_num
+    return max_num
 
-print(manual_min([1,100,255,370,9,1530,0,-3,20,-10]))
+print(manual_max([1,100,255,370,9,1531,0,-3,20,-10]))
