@@ -2,3 +2,12 @@
     text-decoration: wavy overline red;
 }
 
+#offer1 b{
+    text-decoration: dotted underline green;
+}
+
+#offer2 b{
+    text-align: center;
+    text-decoration: solid overline black;
+}
+
