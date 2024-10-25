@@ -9,4 +9,4 @@ def manual_max(listn):
 
     return max_num
 
-print(manual_max([1,100,255,370,9,1531,0,-3,20,-10]))
+print(manual_max([1,100,255,370,9,1531,0,-3,20,-10,2024]))
