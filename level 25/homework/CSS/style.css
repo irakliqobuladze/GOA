@@ -15,3 +15,53 @@ p{
 .offer3{
     font-family: Faster One;
 }
+
+a:link{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkolivegreen;
+    text-decoration: underline;
+}
+
+a.link:link{
+    color: black;
+    text-decoration: none;
+}
+
+a.link:hover{
+    color: darkred;
+    text-decoration: dashed overline;
+}
+
+a.link:visited{
+    color: green;
+    text-decoration: none;
+}
+
+a.link2{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+a.link2:hover{
+    color: darkblue;
+    text-decoration: dashed underline;
+}
+
+.offer4:{
+    color: gray;
+    text-decoration: wavy underline red;
+}
+
+a.link:link{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a.link:hover{
+    color: gray;
+    text-decoration: double underline black;
+}
