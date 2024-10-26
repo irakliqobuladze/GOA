@@ -1,0 +1,16 @@
+p{
+    text-decoration: dashed overline red;
+}
+
+.offer2{
+    text-transform: capitalize;
+}
+
+.offer3{
+    text-align: right;
+    text-decoration: wavy underline purple;
+}
+
+.offer4{
+    text-shadow: -2px 1px 0px red;
+}
