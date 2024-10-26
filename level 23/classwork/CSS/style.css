@@ -2,12 +2,20 @@
     text-decoration: wavy overline red;
 }
 
-#offer1 b{
+.offer1 {
     text-decoration: dotted underline green;
 }
 
-#offer2 b{
+.offer2{
     text-align: center;
-    text-decoration: solid overline black;
+    text-decoration: overline black;
+}
+
+.offer3 {
+    text-transform: capitalize;
+}
+
+.offer4 {
+    text-shadow: -1px 2px 1px rgb(161, 161, 161);
 }
 
