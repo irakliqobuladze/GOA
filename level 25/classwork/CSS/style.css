@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Tiny5&display=swap');
 
-
-
-
 p{
     font-family: "Tiny5" ;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oregano:ital@0;1&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
-#p2{
-    font-family: "Oregano";
+a:link{
+    color: rgb(0, 88, 88);
+    text-decoration: none;
 }
 
+.link:hover{
+    color: aqua;
+    text-decoration: underline;
+}
 
-#p3{
-    font-family: "Bebas Neue";
+a:visited{
+    color: red;
 }
