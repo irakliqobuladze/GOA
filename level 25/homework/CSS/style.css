@@ -5,15 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&family=Mea+Culpa&family=Mountains+of+Christmas:wght@400;700&family=Oregano:ital@0;1&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
 
 p{
-    font-family: Mountains of Christmas;
+    font-family: 'Mountains of Christmas', sans-serif;
 }
 
 .offer2{
-    font-family: Mea Culpa;
+    font-family: 'Mea Culpa', sans-serif;
 }
 
 .offer3{
-    font-family: Faster One;
+    font-family: 'Faster One', sans-serif;
 }
 
 a:link{
