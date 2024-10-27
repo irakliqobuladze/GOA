@@ -51,9 +51,9 @@ a.link2:hover{
     text-decoration: dashed underline;
 }
 
-.offer4:{
+.offer4{ 
     color: gray;
-    text-decoration: wavy underline red;
+    text-decoration: dashed underline red;
 }
 
 a.link:link{
