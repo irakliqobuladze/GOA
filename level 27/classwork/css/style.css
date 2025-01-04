@@ -1,0 +1,37 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+input[type="text"]{
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: aqua;
+}
+
+input[type="password"]{
+    width: 100%;
+    background-color: blue;
+}
+
+div{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 0 20px 0 20px;
+}

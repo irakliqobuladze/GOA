@@ -1,0 +1,40 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+input[type="text"]{
+    width: 100%;
+    background-color: cadetblue;
+}
+
+input[type="submit"]{
+    background-color:  gray;
+}
+
+input[type="password"]{
+    width: 100%;
+    background-color: gold;
+}
+
+input[type="number"]{
+    width: 80%;
+}
