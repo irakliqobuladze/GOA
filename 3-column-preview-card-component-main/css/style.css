@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Mea+Culpa&family=Mountains+of+Christmas:wght@400;700&family=Oregano:ital@0;1&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@100..900&family=Faster+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Mea+Culpa&family=Mountains+of+Christmas:wght@400;700&family=Oregano:ital@0;1&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 51%;
+    height: 55vh;
+    display: flex;
+}
+
+.divjr{
+    height: 100%;
+    width: 33.3%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.div1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.div2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.div3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.heading{
+    font-family: "Big Shoulders Display";
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text{
+    font-family: "Lexend Deca";    
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 40px;
+}
+
+.div1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+.div2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+.div3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+.divjr div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+img{
+    width: 70px;
+}

@@ -1,0 +1,11 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 0.5s
+}
+
+div:active{ 
+    background-color: red;  
+    transform: translate(0px,100px);
+}
