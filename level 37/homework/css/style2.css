@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    background: purple;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+
+#round {
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: brown;
+    }
+
+    50%{
+        background-color: aqua;
+    }
+
+    75%{
+        background-color: black;
+    }
+
+    100%{
+        background-color: gold;
+    }
+}
+    

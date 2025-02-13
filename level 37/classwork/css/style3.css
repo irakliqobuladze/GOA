@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    animation-name: colorChange;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  colorChange{
+    25%{
+        background-color:   black;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: silver;
+
+    }
+}
